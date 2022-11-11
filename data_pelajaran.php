@@ -10,7 +10,7 @@
   <body>
 
 <!--BANNER-->  
-    <div class="bg-banner py-3 d-flex align-item-center justify-content-center">
+    <div class="bg-banner py-3 d-flex align-item-center justify-content-center border-bottom">
         <h5 class="mb-0 title-banner me-3">DATA PELAJARAN SISWA</h5>
     </div>
 <br>

@@ -5,12 +5,12 @@
 
 /* HEADER */
 .bg-banner{
-    background-color: #8f9ae3;
+    background-color: white;
 }
 .title-banner{
-    font-size: 38px;
-    font-weight: 800;
-    color: #888;
+    font-size: 48px;
+    font-weight: 600;
+    color:black;
 }
 
 /* FOOTER */
