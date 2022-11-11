@@ -1,0 +1,165 @@
+/* Font*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap');
+
+/* Global settings */
+* {
+    font-family: "IBM Plex Mono";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS */
+.bg-black {
+    background-color: rgb(31, 94, 230);
+    padding: 45px 255px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link {
+    display: flex;
+    gap: 25px;
+}
+.link li {
+    list-style: none;
+}
+.link li a { 
+text-decoration: none;
+color: #888888;
+}
+.link li a:hover { 
+color: white;
+}
+.active {
+    color: white !important;
+}
+/* content */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 78px;
+}
+.content-title{
+    color: white;
+    font-size: 36px ;
+    font-weight: 600px;
+}
+.content-subtitle{
+    color: #888888;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.hero-img{
+    margin-top: 30px;
+    width: 100%;
+}
+
+/* Project */
+.container{
+    padding: 45px 255px;
+}
+.header-project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.project-title{
+    font-size: 32px;
+    font-weight: 600;
+}
+.project-link{
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    text-decoration: none;
+}
+.content-project{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+.project-img{
+width: 100;
+}
+.project-titles{
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    text-decoration: none;
+}
+.project-links{
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    text-decoration: none;
+}
+/* Our Great team */
+.bg-cream{
+    background-color: #f8f8f9;
+    padding: 45px 255px;
+}
+.title-team{
+    text-align :center;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+.content-team{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.team-img{
+    width: 100%;
+}
+.team-title{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.team-subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-address{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.footer-link{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+}
+.link-title{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+}
+.links li{
+    list-style: none;
+}
+.links li a { 
+    text-decoration: none;
+    color: #888888;
+    margin-bottom: 5px;
+}
+.links li a:hover { 
+     color: white;
+}
+    
