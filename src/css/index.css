@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Font*/
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap');
 
@@ -106,70 +107,31 @@ width: 100;
     color: #555;
     text-decoration: none;
 }
-/* Our Great team */
-.bg-cream{
-    background-color: #f8f8f9;
-    padding: 45px 255px;
-}
-.title-team{
-    text-align :center;
-    font-size: 32px;
-    font-weight: 600;
 
-}
-.content-team{
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 20px;
-}
-.team-img{
-    width: 100%;
-}
-.team-title{
-    margin-top: 15px;
-    font-size: 16px;
-    font-weight: 600;
-}
-.team-subtitle{
-    font-size: 14px;
-    font-weight: 400;
-    color: #555;
-}
 .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer-address{
-    margin-top: 10px;
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
-}
-.footer-link{
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 40px;
-}
-.link-title{
-    font-size: 18px;
-    font-weight: 500;
-    color: white;
-    margin-bottom: 10px;
-}
-.links li{
-    list-style: none;
-}
-.links li a { 
-    text-decoration: none;
-    color: #888888;
-    margin-bottom: 5px;
-}
-.links li a:hover { 
-     color: white;
-}
+
 img{
-width: 8rem;
+width: 10rem;
   }  
+=======
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap');
+* {
+    font-family: "Inter";
+}
+
+.title-banner {
+    font-size: 48px;
+    font-weight: 600;
+}
+.mt-10{
+    margin-top: 5rem;
+}
+img {
+    width: 10rem;
+}
+>>>>>>> e3d8e131f267ff9b69741e41e7f5c747bd17fb03
