@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Font*/
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap');
 
@@ -41,22 +41,14 @@ color: white;
 .content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 78px;
-}
-.content-tit{
-    margin-top: 50px
-    color: rgb(43, 29, 121);
-    font-size: 45px ;
-    font-weight: 800px;  
-    align-items: center;
-    justify-content : center;
+    jus
 }
 .content-title{
     color: rgb(61, 33, 219);
     font-size: 36px ;
     font-weight: 600px;
 }
+
 .content-subtitle{
     color: #888888;
     font-size: 16px;
@@ -115,15 +107,6 @@ width: 100;
 }
 
 
-img{
-width: 10rem;
-  }  
-=======
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap');
-* {
-    font-family: "Inter";
-}
-
 .title-banner {
     font-size: 48px;
     font-weight: 600;
@@ -134,4 +117,3 @@ width: 10rem;
 img {
     width: 10rem;
 }
->>>>>>> e3d8e131f267ff9b69741e41e7f5c747bd17fb03
