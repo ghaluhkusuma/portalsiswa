@@ -25,9 +25,9 @@
              <div class="d-flex flex-column"  >
              <h3 class="content-title">Selamat Datang<br><br></h3>
              <p class="content-subtitle">Kurikulum XSATA ingin memberikan pelayanan terbaik berkaitan belajar mengajar di SMKN 1 Tengaran. Berikut ini Web App Kurikulum yang dapat diakses!</p>
-             <button class="btn btn-primary w-25" type="submit">Data Siswa</button><br>
-              <button class="btn btn-primary w-25" type="submit">Data Guru</button><br>
-              <button class="btn btn-primary w-25" type="submit">Mata Pelajaran</button>
+             <a href="siswa.php" target="_blank"> <button class="btn btn-primary w-25" type="submit" >Data Siswa</button><br> </a>
+             <a href="dataguru.php" target="_blank"><button class="btn btn-primary w-25 mt-3" type="submit">Data Guru</button><br> </a>
+             <a href="data_pelajaran.php" target="_blank"><button class="btn btn-primary w-25 mt-3" type="submit">Mata Pelajaran</button> </a>
            </div>
            </div>
            <div class="col-12 col-md col-lg-6">

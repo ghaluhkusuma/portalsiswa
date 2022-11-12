@@ -25,43 +25,6 @@
     align-items: center;
     jus
 }
-.content-title{
-    color: rgb(61, 33, 219);
-    font-size: 36px ;
-    font-weight: 600px;
-}
-
-.content-subtitle{
-    color: #888888;
-    font-size: 16px;
-    font-weight: 400px;
-}
-.hero-img{
-    margin-top: 30px;
-    width: 100%;
-}
-
-/* Project */
-.container{
-    padding: 45px 255px;
-}
-.header-project{
-    display: flex;
-    align-items: center;
-    justify-content: space-between
-}
-
-}
-.project-img{
-width: 100;
-}
-
-
-.footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 
 .title-banner {
@@ -72,5 +35,8 @@ width: 100;
     margin-top: 5rem;
 }
 img {
+    width: 5rem;
+}
+.img-thumbnail{
     width: 10rem;
 }
