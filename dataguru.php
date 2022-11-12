@@ -23,30 +23,31 @@
   <div class="row">
     <div class="col">
         <section>
-    <img src="src/img/Bu Endah.png" class="img-thumbnail" alt="...">     
+    <img src="src/img/Bu Endah.png " class="img-thumbnail mt-10" alt="...">     
     
-    <h3 class="project-titles">Endah Emera</h3>
+    <h5 class="project-titles mt-3">Endah Emera</h5>
     <p class="team-link">Produk Kreatif</p>
         </section>
     </div>
     <div class="col">
         <section>
-        <img src="src/img/Ghaluh.png" class="img-thumbnail" alt="...">
-    <h3 class="project-titles">Ghaluh Kusumaningrum</h3>
+        <img src="src/img/Ghaluh.png" class="img-thumbnail mt-10" alt="..." >
+        
+    <h5 class="project-titles mt-3">Ghaluh Kusuma Ningrum</h5>
     <p class="team-link">Informatika</p>
         </section>
     </div>
     <div class="col">
         <section>
-    <img class="project-img" src="src/img/Ahmad Bagus.png" alt="">
-    <h3 class="project-titles">Ahmad Bagus Pambudi</h3>
+    <img class="img-thumbnail mt-10" src="src/img/Ahmad Bagus.png" alt="">
+    <h5 class="project-titles mt-3">Ahmad Bagus Pambudi</h5>
     <p class="team-link">Basis Data</p>
         </section>
     </div>
     <div class="col">
         <section>
-    <img class="project-img" src="src/img/Mas Imut.png" alt="">
-    <h3 class="project-titles">Imam Muthohar</h3>
+    <img class="img-thumbnail mt-10" src="src/img/Mas Imut.png" alt="">
+    <h5 class="project-titles mt-3">Imam Muthohar</h5>
     <p class="team-link">Pemrograman WEB</p>
         </section>
     </div>
@@ -65,7 +66,6 @@
               </div>
           </div>
         </div>
-</div>
 
 
 </body>
