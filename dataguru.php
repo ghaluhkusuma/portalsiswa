@@ -55,7 +55,12 @@
 </div>
 
 
-<a href="index.php"><button class ="btn btn-primary " >Kembali</button> </a>
+<section>
+<div class="back  py-3 w-100 ">
+<a href="index.php" class="d-flex flex-lg-row justify-content-center align-items-center">
+  <button class ="btn btn-primary" >Kembali</button> </a>
+</div>
+</section
 
 <!-- Footer -->
 <div class="border-top py-4 mt-10 ">
