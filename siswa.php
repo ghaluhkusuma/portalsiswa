@@ -35,7 +35,6 @@
       <th scope="col">No</th>
       <th scope="col">Nis</th>
       <th scope="col">Nama</th>
-      <th scope="col">Nilai</th>
       <th scope="col">Keterangan</th>
     </tr>
     
@@ -47,7 +46,6 @@
       <th scope="row"><?php echo $ssw["no"]; ?></th>
       <th scope="row"><?php echo $ssw["nis"]; ?></th>
       <th scope="row"><?php echo $ssw["nama"]; ?></th>
-      <th scope="row"><?php echo $ssw["nilai"]; ?></th>
       <td>
       
         <!-- Button trigger modal -->
@@ -69,12 +67,14 @@
           <div class="modal-body text-center">
         
         <?php
-        
-        if( $ssw ["nilai"] > 75 ){
-        echo "Lulus";
+        $nilai= $ssw ["nilai"];
+        if( $nilai > 75 ){
+        echo "SELAMAT ANDA LULUS ! <br>";
+        echo "NILAI ANDA" . " " . $ssw["nilai"];
   
         } else{
-        echo "Tidak Lulus";
+        echo "MAAF ANDA TIDAK LULUS";
+        echo "NILAI ANDA" . " " . $ssw["nilai"];
         }
         
         ?>
@@ -83,7 +83,7 @@
         </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Understood</button>
+              <a href="index.php" target="_blank"> <button type="button" class="btn btn-primary">Home</button> </a>
             </div>
           </div>
         </div>
@@ -94,10 +94,10 @@
 </div>
 
 <!-- Footer -->
-  <div class="border-top py-4 mt-10 ">
+<div class="border-top py-4 mt-10 ">
             <div class="container px-5 d-flex flex-lg-row flex-column justify-content-between align-items-center">
-            <img src="src/img/UpoDjiwo.jpg" alt="" class="d-lg-block d-none">
-            <img src="src/img/UpoDjiwo.jpg" alt="" class="d-lg-none d-block mb-4" style="width: 8rem;">
+            <img src="src/img/Upo-Djiwo.png" alt="" class="d-lg-block d-none">
+            <img src="src/img/UpoD-jiwo.png" alt="" class="d-lg-none d-block mb-4" style="width: 8rem;">
             <div class="d-flex flex-column flex-lg-row">
                 <p class="me-3 text-decoration-none text-secondary mb-0">@All Right Reserved. UpoDjiwo</p>
                 
