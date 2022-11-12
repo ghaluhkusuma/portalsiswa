@@ -11,8 +11,10 @@
     <!-- Array -->
   <?php
   $dt_siswa =   [["no"=> "1","nis" => "12345","nama" => "Susi", "nilai" => "80"],
-              ["no"=> "2","nis" => "67891","nama" => "Tono", "nilai" => "70"]];
+              ["no"=> "2","nis" => "67891","nama" => "Tono", "nilai" => "70"],
+              ["no"=> "3","nis" => "34325","nama" => "Jono", "nilai" => "75"]];
 
+              
   ?>
 
 
@@ -92,6 +94,15 @@
      </tbody>
 </table>
 </div>
+
+<section>
+<div class="back  py-3 w-100 ">
+<a href="index.php" class="d-flex flex-lg-row justify-content-center align-items-center">
+  <button class ="btn btn-primary" >Kembali</button> </a>
+</div>
+</section>
+
+
 
 <!-- Footer -->
 <div class="border-top py-4 mt-10 ">

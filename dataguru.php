@@ -20,7 +20,7 @@
     <!-- content -->
     
     <div class="container text-center">
-  <div class="row">
+    <div class="row">
     <div class="col">
         <section>
     <img src="src/img/Bu Endah.png " class="img-thumbnail mt-10" alt="...">     
