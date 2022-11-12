@@ -1,7 +1,7 @@
 /* Font*/
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
-.content-team{
+.container text-center{
     margin-top: 50px;
     display: grid;
     grid-template-columns: auto auto auto auto;
