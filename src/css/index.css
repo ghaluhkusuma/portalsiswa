@@ -11,32 +11,14 @@
 }
 
 /* CSS */
-.bg-black {
-    background-color: rgb(31, 94, 230);
-    padding: 45px 255px;
-}
+
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.link {
-    display: flex;
-    gap: 25px;
-}
-.link li {
-    list-style: none;
-}
-.link li a { 
-text-decoration: none;
-color: #888888;
-}
-.link li a:hover { 
-color: white;
-}
-.active {
-    color: white !important;
-}
+
+
 /* content */
 .content {
     display: flex;
@@ -68,37 +50,12 @@ color: white;
     align-items: center;
     justify-content: space-between
 }
-.project-title{
-    font-size: 32px;
-    font-weight: 600;
-}
-.project-link{
-    font-size: 16px;
-    font-weight: 400;
-    color: #555;
-    text-decoration: none;
-}
-.content-project{
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 30px;
+
 }
 .project-img{
 width: 100;
 }
-.project-titles{
-    font-size: 14px;
-    font-weight: 400;
-    color: #555;
-    text-decoration: none;
-}
-.project-links{
-    font-size: 16px;
-    font-weight: 400;
-    color: #555;
-    text-decoration: none;
-}
+
 
 .footer{
     display: flex;

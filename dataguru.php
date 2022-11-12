@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Guru</title>
+    <link rel="stylesheet" href="src/css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
     <!-- Banner -->
@@ -16,27 +18,41 @@
     </section>
     
     <!-- content -->
-<div class="content-team">
-<section>
-    <img class="project-img" src="src/img/Bu Endah.png" alt="">
-    <h1 class="project-titles">Endah Emera</h1>
+    
+    <div class="container text-center">
+  <div class="row">
+    <div class="col">
+        <section>
+    <img src="src/img/Bu Endah.png" class="img-thumbnail" alt="...">     
+    
+    <h3 class="project-titles">Endah Emera</h3>
     <p class="team-link">Produk Kreatif</p>
-</section>
-<section>
-    <img class="project-img" src="src/img/Ghaluh.png" alt="">
-    <h1 class="project-titles">Ghaluh Kusumaningrum</h1>
+        </section>
+    </div>
+    <div class="col">
+        <section>
+        <img src="src/img/Ghaluh.png" class="img-thumbnail" alt="...">
+    <h3 class="project-titles">Ghaluh Kusumaningrum</h3>
     <p class="team-link">Informatika</p>
-</section>
-<section>
+        </section>
+    </div>
+    <div class="col">
+        <section>
     <img class="project-img" src="src/img/Ahmad Bagus.png" alt="">
-    <h1 class="project-titles">Ahmad Bagus Pambudi</h1>
+    <h3 class="project-titles">Ahmad Bagus Pambudi</h3>
     <p class="team-link">Basis Data</p>
-</section>
-<section>
+        </section>
+    </div>
+    <div class="col">
+        <section>
     <img class="project-img" src="src/img/Mas Imut.png" alt="">
-    <h1 class="project-titles">Imam Muthohar</h1>
+    <h3 class="project-titles">Imam Muthohar</h3>
     <p class="team-link">Pemrograman WEB</p>
-</section>
+        </section>
+    </div>
+  </div>
+</div>
+
 
 <!-- Footer -->
 <div class="border-top py-4 mt-10 ">
@@ -51,6 +67,6 @@
         </div>
 </div>
 
-</div>
+
 </body>
 </html>
