@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Data Siswa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/index.css">
 </head>
@@ -67,8 +67,8 @@
           <div class="modal-body text-center">
         
         <?php
-        $nilai= $ssw ["nilai"];
-        if( $nilai > 75 ){
+        
+        if( $ssw ["nilai"] > 75 ){
         echo "SELAMAT ANDA LULUS ! <br>";
         echo "NILAI ANDA" . " " . $ssw["nilai"];
   
@@ -83,7 +83,7 @@
         </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <a href="index.php" target="_blank"> <button type="button" class="btn btn-primary">Home</button> </a>
+              <a href="index.php"> <button type="button" class="btn btn-primary">Home</button> </a>
             </div>
           </div>
         </div>
