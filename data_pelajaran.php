@@ -13,44 +13,50 @@
     <div class="bg-banner py-3 d-flex align-item-center justify-content-center border-bottom">
         <h5 class="mb-0 title-banner me-3">DATA PELAJARAN SISWA</h5>
     </div>
-<br>
-<br>
 
 
+<!-- Array -->
+<?php
+  $dt_matpel =   [["no"=> "1","kode" => "10001","matpel" => "Sistem Komputer", "kelas" => "xi", "keterangan" => "BOS 2021"],
+                  ["no"=> "2","kode" => "10002","matpel" => "PKK", "kelas" => "xi", "keterangan" => "BOS 2021"],
+                  ["no"=> "3","kode" => "10003","matpel" => "PKK", "kelas" => "xii", "keterangan" => "BOS 2021"],
+                  ["no"=> "4","kode" => "10004","matpel" => "Pemrograman WEB", "kelas" => "xi", "keterangan" => "BOS 2021"],
+                  ["no"=> "5","kode" => "10005","matpel" => "Informatika", "kelas" => "xi", "keterangan" => "BOS 2021"],
+                  ["no"=> "6","kode" => "10006","matpel" => "Matematika", "kelas" => "xi", "keterangan" => "BOS 2021"],
+                  ["no"=> "7","kode" => "10007","matpel" => "Design grafis", "kelas" => "xi", "keterangan" => "BOS 2021"]];
+
+  ?>
 <!--content-->
-    <?php
+    
+  <div class="container px-5 mt-10">
+     
+ <table class="table mt-5 text-center">
 
-    echo"NANTINYA DI ISI DATA PELAJARAN SISWA"
+<thead class = "table-dark text-center">
+ <tr>
+   <th scope="col">No</th>
+   <th scope="col">Kode</th>
+   <th scope="col">Mata Pelajaran</th>
+   <th scope="col">Kelas</th>
+   <th scope="col">Keterangan</th>
+ </tr>
+ 
+</thead>
+<tbody>
 
-  
-    ?>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<!--footer-->
-    <div class="d-flex flex-lg-row flex-column border-top">
-      <a href="#" class="mt-3 ms-0 text-decoration-none text-secondary">Created By UPO DJIWO</a>
-    </div>
+<?php
+foreach ($dt_matpel as $ssw): ?>
+ <tr>
+   <th scope="row"><?php echo $ssw["no"]; ?></th>
+   <th scope="row"><?php echo $ssw["kode"]; ?></th>
+   <th scope="row"><?php echo $ssw["matpel"]; ?></th>
+   <th scope="row"><?php echo $ssw["kelas"]; ?></th>
+   <th scope="row"><?php echo $ssw["keterangan"]; ?></th>
+</tr>
 
-
-
-
+</tbody>
+   </div> 
+   <?php endforeach ?>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
