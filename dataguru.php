@@ -20,7 +20,7 @@
     <!-- content -->
     
     <div class="container text-center">
-  <div class="row">
+    <div class="row">
     <div class="col">
         <section>
     <img src="src/img/Bu Endah.png " class="img-thumbnail mt-10" alt="...">     
@@ -54,6 +54,13 @@
   </div>
 </div>
 
+
+<section>
+<div class="back  py-3 w-100 ">
+<a href="index.php" class="d-flex flex-lg-row justify-content-center align-items-center">
+  <button class ="btn btn-primary" >Kembali</button> </a>
+</div>
+</section
 
 <!-- Footer -->
 <div class="border-top py-4 mt-10 ">
