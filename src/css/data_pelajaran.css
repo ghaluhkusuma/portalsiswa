@@ -13,13 +13,3 @@
     color:black;
 }
 
-/* FOOTER */
-.footer{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 255px;
-    border-top: 1px solid #efefef;
-    border-bottom: 1px solid #efefef;
-    color: #888;
-}

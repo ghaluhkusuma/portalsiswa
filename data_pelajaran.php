@@ -58,6 +58,25 @@ foreach ($dt_matpel as $ssw): ?>
    </div> 
    <?php endforeach ?>
 
+<section>
+  <div class="back  py-3 w-100 ">
+    <a href="index.php" class="d-flex flex-lg-row justify-content-center align-items-center">
+    <button class ="btn btn-primary" >Kembali</button> </a>
+  </div>
+</section>
+
+<!-- Footer -->
+<div class="border-top py-4 mt-10 ">
+            <div class="container px-5 d-flex flex-lg-row flex-column justify-content-between align-items-center">
+            <img src="src/img/Upo-Djiwo.png" alt="" class="d-lg-block d-none">
+            <img src="src/img/UpoD-jiwo.png" alt="" class="d-lg-none d-block mb-4" style="width: 8rem;">
+            <div class="d-flex flex-column flex-lg-row">
+                <p class="me-3 text-decoration-none text-secondary mb-0">@All Right Reserved. UpoDjiwo</p>
+                
+              </div>
+          </div>
+        </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
